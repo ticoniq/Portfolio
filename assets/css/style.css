@@ -105,10 +105,15 @@ ul {
   color: #344563;
 }
 
-.header .socials {
+.header .socials ul {
+  display: flex;
+}
+
+.header .socials a {
   color: #505f79;
   font-size: 25px;
   margin-top: 10px;
+  margin-right: 15px;
 }
 
 @media (max-width: 760px) {
