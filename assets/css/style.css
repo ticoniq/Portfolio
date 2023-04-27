@@ -47,13 +47,6 @@ ul {
   text-decoration: none;
 }
 
-.header a {
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
-  margin-top: 20px;
-}
-
 .navbar a:hover {
   color: #6070ff;
 }
@@ -103,16 +96,25 @@ ul {
   font-weight: 400;
   font-size: 20px;
   color: #344563;
+  margin-bottom: 15px;
 }
 
-.header .socials ul {
+.header .link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.header ul {
+  margin-top: 15px;
   display: flex;
 }
 
 .header .socials a {
   color: #505f79;
   font-size: 25px;
-  margin-top: 10px;
   margin-right: 15px;
 }
 
