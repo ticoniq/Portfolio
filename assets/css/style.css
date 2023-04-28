@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #172b4d;
@@ -19,6 +19,47 @@ h1 {
 
 ul {
   list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.tag {
+  align-items: center;
+  padding: 4px 12px;
+  width: 70px;
+  height: 40px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.btn-enable {
+  width: 126px;
+  height: 48px;
+  background: none;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.btn-hover:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.p-10 {
+  padding: 10px;
 }
 
 .container {
@@ -99,7 +140,7 @@ ul {
   margin-bottom: 15px;
 }
 
-.header .link {
+.link {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
@@ -107,15 +148,180 @@ ul {
   text-decoration: none;
 }
 
-.header ul {
+.social ul {
   margin-top: 15px;
   display: flex;
 }
 
-.header .socials a {
+.socials a {
   color: #505f79;
   font-size: 25px;
   margin-right: 15px;
+}
+
+.boxes .container {
+  display: grid;
+  padding: auto;
+  margin: 30px auto;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: 390px;
+}
+
+.box {
+  display: flex;
+  background: #0a51cc;
+  border-radius: 10px;
+  margin-top: 60px;
+  padding: 16px;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 15px 0px 15px;
+}
+
+.box ul {
+  margin-top: 15px;
+  display: flex;
+}
+
+.box a {
+  color: #505f79;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 15px;
+  color: #7a869a;
+  text-decoration: none;
+}
+
+.box a i {
+  color: #505f79;
+  font-size: 10px;
+  margin-left: 15px;
+  color: #7a869a;
+}
+
+.boxes .box .client {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 15px 0px 15px;
+}
+
+.box .tags a {
+  align-items: center;
+  padding: 4px 12px;
+  width: 70px;
+  height: 40px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.about .container {
+  display: grid;
+  padding: auto;
+  margin: 30px auto;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.about {
+  display: flex;
+  margin: 20px 0px 20px;
+  padding: 60px 0px 30px;
+  background: #fff;
+  border-top-right-radius: 100px;
+}
+
+.about .about_me h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding: 0px 0px 10px;
+}
+
+.about .about_me p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding: 0px 0px 12px;
+}
+
+.about .social .btn {
+  padding: 10px;
+  width: 160px;
+}
+
+.skills {
+  margin-top: 6px;
+  padding-top: 24px;
+  background-color: #fff;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 0px 23px 0;
+  border-bottom: 1.5px #eee solid;
+}
+
+.skill i {
+  color: #acb7c3;
+  font-weight: lighter;
+  padding: 0px;
+}
+
+.skill_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.skill_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 23px 0px 23px 0; */
+  padding: 15px;
+  border-bottom: 1px #eee solid;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.skill_detail h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 20px;
 }
 
 @media (max-width: 760px) {
@@ -149,5 +355,14 @@ ul {
     flex-direction: column;
     padding-top: 100px;
     text-align: left;
+  }
+
+  .boxes .container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .box {
+    display: block;
   }
 }
