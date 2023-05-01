@@ -5,62 +5,59 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/utilities.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>My Personal Portfolio</title>
+  <title>Document</title>
 </head>
 
 <body>
-  <header class="navbar">
-    <div class="container">
-      <a class="logo" href="index.html">My Logo</a>
-      <nav class="nav-link">
-        <ul class="nav">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+  <header>
+    <nav class="navbar">
+      <div class="container flex">
+        <a href="index.html" class="logo">My Logo</a>
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-        <a href="#"><i class="fa fa-bars"></i></a>
-      </nav>
-    </div>
-  </header>
-  <section class="header">
-    <div class="container">
-      <div class="head-text">
-        <h1>I’m Tochukwu. <br> Glad to see you!</h1>
-        <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work
-          and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+        <i class="fa fa-bars"></i>
       </div>
-      <div class="social">
-        <a href="#" class="link">LET’S CONNECT</a>
-        <ul class="socials">
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa fa-medium"></i></a></li>
-          <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-          <li><a href="#"><i class="fa fa-angellist"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <main class="main">
-    <section class="boxes">
+    </nav>
+    <section class="banner">
       <div class="container">
-        <div class="box">
-          <img src="assets/images/portfolio-1.svg" alt="">
-          <div class="box-details">
-            <h2><i class="fas fa-arrows-alt-v"></i> Tonia </h2>
-            <ul>
+        <div class="banner-text">
+          <h1>I’m Tochi. <br> Glad to see you!</h1>
+          <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work
+            and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+          </p>
+          <a href="#" class="link">LET’S CONNECT</a>
+          <ul class="social">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-angellist"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main class="main">
+    <section class="portfolio my-5 py-2">
+      <div class="container">
+        <div class="card grid">
+          <div class="img">
+            <img src="assets/images/portfolio-1.svg" alt="">
+          </div>
+          <div class="card-body">
+            <h2>Tonia </h2>
+            <ul class="details">
               <li><a href="#">Developer <i class="fa fa-circle"></i></a></li>
               <li><a href="#">Web <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">2022 <i class="fa fa-circle"></i></a></li>
+              <li><a href="#">2022 </a></li>
             </ul>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
             </p>
@@ -68,21 +65,19 @@
               <li><a href="#">HTML</a></li>
               <li><a href="#">CSS</a></li>
               <li><a href="#">JavaScript</a></li>
-              <li><a href="#">ReactJS</a></li>
             </ul>
-            <button class="btn btn-enable btn-hover mt-15">See Project</button>
+            <button class="btn btn-outline btn-hover mt-15">See Project</button>
           </div>
         </div>
 
-        <div class="box">
+        <div class="card grid">
           <img src="assets/images/portfolio-2.svg" alt="">
-          <div class="box-details">
-            <h2><i class="fas fa-arrows-alt-v"></i> Multi-Post
-              Stories </h2>
-            <ul>
-              <li><a href="#">Web Developer <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">Website <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">2021 <i class="fa fa-circle"></i></a></li>
+          <div class="card-body">
+            <h2>Tonia </h2>
+            <ul class="details">
+              <li><a href="#">Developer <i class="fa fa-circle"></i></a></li>
+              <li><a href="#">Web <i class="fa fa-circle"></i></a></li>
+              <li><a href="#">2022 </a></li>
             </ul>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
             </p>
@@ -91,18 +86,18 @@
               <li><a href="#">CSS</a></li>
               <li><a href="#">JavaScript</a></li>
             </ul>
-            <button class="btn btn-enable btn-hover mt-15">See Project</button>
+            <button class="btn btn-outline btn-hover mt-15">See Project</button>
           </div>
         </div>
 
-        <div class="box">
+        <div class="card grid">
           <img src="assets/images/portfolio-3.svg" alt="">
-          <div class="box-details">
-            <h2><i class="fas fa-arrows-alt-v"></i> Tonia </h2>
-            <ul>
-              <li><a href="#">Full-Stack <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">Back End Dev <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">2022 <i class="fa fa-circle"></i></a></li>
+          <div class="card-body">
+            <h2>Tonia </h2>
+            <ul class="details">
+              <li><a href="#">Developer <i class="fa fa-circle"></i></a></li>
+              <li><a href="#">Web <i class="fa fa-circle"></i></a></li>
+              <li><a href="#">2022 </a></li>
             </ul>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
             </p>
@@ -110,21 +105,19 @@
               <li><a href="#">HTML</a></li>
               <li><a href="#">CSS</a></li>
               <li><a href="#">JavaScript</a></li>
-              <li><a href="#">Ruby</a></li>
             </ul>
-            <button class="btn btn-enable btn-hover mt-15">See Project</button>
+            <button class="btn btn-outline btn-hover mt-15">See Project</button>
           </div>
         </div>
 
-        <div class="box">
+        <div class="card grid">
           <img src="assets/images/portfolio-4.svg" alt="">
-          <div class="box-details">
-            <h2><i class="fas fa-arrows-alt-v"></i> Multi-Post
-              Stories </h2>
-            <ul>
-              <li><a href="#">Web Developer <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">Website <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">2021 <i class="fa fa-circle"></i></a></li>
+          <div class="card-body">
+            <h2>Tonia </h2>
+            <ul class="details">
+              <li><a href="#">Developer <i class="fa fa-circle"></i></a></li>
+              <li><a href="#">Web <i class="fa fa-circle"></i></a></li>
+              <li><a href="#">2022 </a></li>
             </ul>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
             </p>
@@ -133,74 +126,70 @@
               <li><a href="#">CSS</a></li>
               <li><a href="#">JavaScript</a></li>
             </ul>
-            <button class="btn btn-enable btn-hover mt-15">See Project</button>
+            <button class="btn btn-outline btn-hover mt-15">See Project</button>
           </div>
         </div>
       </div>
     </section>
 
     <section class="about">
-      <div class="container">
-        <div class="about_me">
+      <div class="container grid">
+        <div class="about-me">
           <h2>About Myself</h2>
           <p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of
             my work and experience! If you like what you see and have a project you need coded, don’t hesitate to
             contact me.</p>
-          <div class="social">
-            <a href="#" class="link">LET’S CONNECT</a>
-            <ul class="socials">
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-medium"></i></a></li>
-              <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-              <li><a href="#"><i class="fa fa-angellist"></i></a></li>
-            </ul>
-            <button class="btn btn-enable btn-hover mt-15">Get My Resume</button>
-          </div>
+          <a href="#" class="link">LET’S CONNECT</a>
+          <ul class="social">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-angellist"></i></a></li>
+          </ul>
+          <a class="btn btn-outline btn-hover" href="#">Get My Resume</a>
         </div>
-        <div class="about_skills">
-          <ul class="skills">
+        <div class="about-skill">
+          <ul class="languages">
             <li>
               <span class="skill">
                 <h3 class="skill_title">Languages</h3>
                 <i class="fa fa-chevron-down"></i>
               </span>
+              <ul class="program flex">
+                <li>
+                  <img src="assets/images/Ellipse-1.svg" alt="">
+                  <h3 class="skill_detail-title">JavaScript</h3>
+                </li>
+                <li>
+                  <img src="assets/images/Ellipse-2.svg" alt="">
+                  <h3 class="skill_detail-title">HTML</h3>
+                </li>
+                <li>
+                  <img src="assets/images/Ellipse-3.svg" alt="">
+                  <h3 class="skill_detail-title">CSS</h3>
+                </li>
+              </ul>
             </li>
+
             <li>
-              <span class="skill_detail">
-                <img src="assets/images/Ellipse-1.svg" alt="">
-                <h3 class="skill_detail-title">Languages</h3>
-              </span>
-            </li>
-            <li>
-              <span class="skill_detail">
-                <img src="assets/images/Ellipse-2.svg" alt="">
-                <h3 class="skill_detail-title">Languages</h3>
-              </span>
-            </li>
-            <li>
-              <span class="skill_detail">
-                <img src="assets/images/Ellipse-3.svg" alt="">
-                <h3 class="skill_detail-title">Languages</h3>
-              </span>
-            </li>
-            <li>
-              <section class="skill">
-                <h3 class="skill_title">Frameworks</h3>
+              <span class="skill">
+                <h3 class="skill_title">Framework</h3>
                 <i class="fa fa-chevron-right"></i>
-              </section>
+              </span>
             </li>
             <li>
-              <section class="skill">
+              <span class="skill">
                 <h3 class="skill_title">Skills</h3>
                 <i class="fa fa-chevron-right"></i>
-              </section>
+              </span>
             </li>
           </ul>
         </div>
       </div>
     </section>
   </main>
+  
 </body>
 
 </html>
