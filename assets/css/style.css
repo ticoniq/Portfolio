@@ -176,11 +176,21 @@ img {
   padding: 5px 15px;
 }
 
+.about-skill .skill i {
+  color: #344563;
+}
+
 .card-body .details li:first-child a {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   color: #344563;
+}
+
+.about .social a {
+  color: #505f79;
+  margin-right: 30px;
+  font-size: 20px;
 }
 
 .card-body .details li:first-child a i {
@@ -229,12 +239,6 @@ img {
   display: flex;
 }
 
-.about .social a {
-  color: #505f79;
-  margin-right: 30px;
-  font-size: 20px;
-}
-
 .about .link {
   font-style: normal;
   font-weight: 500;
@@ -263,10 +267,6 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #344563;
-}
-
-.about-skill .skill i {
   color: #344563;
 }
 
@@ -299,8 +299,6 @@ img {
   margin: 20px 20px 0 20px;
   width: 48px;
 }
-
-
 
 /* Mobile view */
 @media (max-width: 768px) {
