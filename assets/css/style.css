@@ -160,6 +160,13 @@ img {
   font-size: 10px;
 }
 
+.portfolio .tags a {
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  padding: 5px 15px;
+}
+
 .card-body .details li:first-child a {
   font-style: normal;
   font-weight: 500;
@@ -179,15 +186,8 @@ img {
 }
 
 .card-body .tags {
-  margin: 35px 0px;
+  margin: 35px 0;
   display: flex;
-}
-
-.portfolio .tags a {
-  background: #ebebff;
-  border-radius: 8px;
-  color: #6070ff;
-  padding: 5px 15px;
 }
 
 .portfolio img {
@@ -203,7 +203,6 @@ img {
 .about {
   background: #fff;
   padding: 150px 5px;
-  background: #fff;
   border-top-right-radius: 100px;
 }
 
@@ -293,7 +292,7 @@ img {
   font-weight: 500;
   font-size: 15px;
   color: #253858;
-  margin: 0px 0px 0 20px;
+  margin: 0 0 0 20px;
 }
 
 .program img {
