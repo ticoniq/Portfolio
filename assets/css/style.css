@@ -176,10 +176,6 @@ img {
   padding: 5px 15px;
 }
 
-.about-skill .skill i {
-  color: #344563;
-}
-
 .about .social a {
   color: #505f79;
   margin-right: 30px;
@@ -190,6 +186,10 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  color: #344563;
+}
+
+.about-skill .skill i {
   color: #344563;
 }
 
@@ -364,7 +364,7 @@ img {
   }
 
   .program h3 {
-    margin: auto 0;
+    margin: auto 0px;
   }
 
   .program img {
