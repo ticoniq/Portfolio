@@ -144,6 +144,15 @@ img {
   padding: 0;
 }
 
+.portfolio img {
+  width: 544px;
+}
+
+.portfolio .card {
+  margin-top: 104px;
+  height: 100%;
+}
+
 .card-body h2 {
   font-style: normal;
   font-weight: 700;
@@ -188,15 +197,6 @@ img {
 .card-body .tags {
   margin: 35px 0;
   display: flex;
-}
-
-.portfolio img {
-  width: 544px;
-}
-
-.portfolio .card {
-  margin-top: 104px;
-  height: 100%;
 }
 
 /* About */
@@ -266,7 +266,7 @@ img {
   color: #344563;
 }
 
-.skill i {
+.about-skill .skill i {
   color: #344563;
 }
 
@@ -299,6 +299,8 @@ img {
   margin: 20px 20px 0 20px;
   width: 48px;
 }
+
+
 
 /* Mobile view */
 @media (max-width: 768px) {
