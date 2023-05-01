@@ -61,6 +61,14 @@ img {
   display: flex;
 }
 
+.card-body a {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #6b778c;
+}
+
 .navbar ul a {
   color: #344563;
   padding: 10px;
@@ -90,7 +98,7 @@ img {
 }
 
 .banner-text {
-  margin-buttom: 20px;
+  margin-bottom: 20px;
   padding: 14rem;
 }
 
@@ -147,6 +155,11 @@ img {
   display: flex;
 }
 
+.card-body i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
 .card-body .details li:first-child a {
   font-style: normal;
   font-weight: 500;
@@ -154,22 +167,8 @@ img {
   color: #344563;
 }
 
-.card-body .details li:first-child a i{
+.card-body .details li:first-child a i {
   color: #6b778c;
-}
-
-.card-body a {
-  margin-right: 10px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  color: #6b778c;
-}
-
-.card-body i {
-  margin-left: 5px;
-  font-size: 10px;
-  margin: auto;
 }
 
 .card-body p {
