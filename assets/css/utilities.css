@@ -32,6 +32,12 @@
   color: #fff;
 }
 
+.btn-hover-2:hover {
+  border: 1px solid #fff;
+  background: #6070ff;
+  color: #fff;
+}
+
 .btn-pressed:active {
   background: #2230d2;
   color: #fff;
