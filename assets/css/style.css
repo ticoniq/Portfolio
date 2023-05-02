@@ -379,10 +379,14 @@ img {
 
   .footer {
     background: #6070ff;
+    background-image:   url(../images/mobile/contact-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right 50px;
     height: 779px;
     padding-top: 103px;
     text-align: center;
     color: #fff;
+    border-top-left-radius: 80px;
   }
 
   .footer h2 {
@@ -413,5 +417,14 @@ img {
   border-radius: 8px;
   height: 172px;
   padding: 6px;
+}
+.btnSubmit{
+  background: white;
+  color:#6070ff;
+  width: 142px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  float: left;
 }
 }
