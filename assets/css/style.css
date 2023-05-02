@@ -300,7 +300,91 @@ img {
   width: 48px;
 }
 
+/* Footer */
+.foot {
+  background: #fff;
+}
 
+.footer {
+  background-image: url("../images/web/contact-bg.svg");
+  background-position: center 100px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  border-top-left-radius: 160px;
+  background-color: #6070ff;
+  height: 846px;
+}
+
+.footer .footer-text {
+  text-align: center;
+  width: 569px;
+  margin: auto;
+  margin-top: 142px;
+}
+
+.footer .footer-text h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.footer .footer-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+}
+
+.footer-form {
+  width: 500px;
+  margin: 40px auto;
+}
+
+.footer .form-control {
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer input[type="text"],
+.footer input[type="email"] {
+  border: 0;
+  border: 1px solid #fff;
+  width: 100%;
+  height: 48px;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+.footer textarea {
+  border: 0;
+  border: 1px solid #fff;
+  width: 100%;
+  display: block;
+  margin: auto;
+  height: 172px;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.footer input:focus {
+  outline: none;
+}
+
+.footer textarea:focus {
+  outline: none;
+}
+
+.footer button {
+  display: block;
+  margin: 0 auto;
+}
 
 /* Mobile view */
 @media (max-width: 768px) {
@@ -366,65 +450,34 @@ img {
   }
 
   .program h3 {
-    margin: auto 0;
+    margin: auto 0px;
   }
 
   .program img {
     margin: auto 10px;
   }
 
-  .foot {
-    background: #fff;
-  }
-
   .footer {
-    background: #6070ff;
-    background-image:   url(../images/mobile/contact-mobile.svg);
-    background-repeat: no-repeat;
+    background-image: url("../images/mobile/contact-mobile.svg");
     background-position: right 50px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 160px;
+    background-color: #6070ff;
     height: 779px;
-    padding-top: 103px;
-    text-align: center;
-    color: #fff;
-    border-top-left-radius: 80px;
   }
 
-  .footer h2 {
-    font-style: normal;
-    font-size: 40px;
-    font-weight: 700;
+  .footer .footer-text {
+    width: 100%;
   }
 
-  .footer p {
-    font-weight: 400;
-    font-size: 20px;
+  .footer-form {
+    margin: 25px 0;
+    width: 100%;
   }
 
-.formArea .formController {
-  margin: 10px auto;
-  
-}
-
-.formController input {
-  width: 100%;
-  border-radius: 8px;
-  height: 48px;
-  padding: 6px;
-}
-
-.formController textarea {
-  width: 100%;
-  border-radius: 8px;
-  height: 172px;
-  padding: 6px;
-}
-.btnSubmit{
-  background: white;
-  color:#6070ff;
-  width: 142px;
-  height: 48px;
-  border-radius: 8px;
-  border: 1px solid #6070ff;
-  float: left;
-}
+  .footer button {
+    display: inline;
+    /* float: left; */
+  }
 }
