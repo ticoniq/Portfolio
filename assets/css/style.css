@@ -58,6 +58,7 @@ img {
   color: var(--primary-color);
   font-weight: 700;
   font-size: 18px;
+  transition: all 0.5s;
 }
 
 .navbar ul {
