@@ -44,7 +44,10 @@ img {
 /* Navbar */
 .navbar {
   background: #fff;
-  height: 50px;
+  height: 72px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .navbar .flex {
@@ -73,7 +76,7 @@ img {
   color: #344563;
   padding: 10px;
   margin: 0 10px;
-  font-family: 500;
+  font-weight: 500;
 }
 
 .navbar a:hover {
@@ -88,6 +91,8 @@ img {
 
 /* Banner */
 .banner {
+  position: relative;
+  top: 72px;
   background-image: url("../images/web/header_bg.svg");
   background-position: center 30px;
   background-size: 100%;
@@ -145,12 +150,16 @@ img {
 }
 
 .portfolio img {
-  width: 544px;
+  width: 100%;
+  height: 100%;
 }
 
 .portfolio .card {
   margin-top: 104px;
-  height: 100%;
+}
+
+.portfolio .grid {
+  align-items: normal;
 }
 
 .card-body h2 {
@@ -158,10 +167,12 @@ img {
   font-weight: 700;
   font-size: 40px;
   color: #091e42;
+  margin-top: 10px;
 }
 
 .card-body .details {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card-body i {
@@ -173,7 +184,8 @@ img {
   background: #ebebff;
   border-radius: 8px;
   color: #6070ff;
-  padding: 5px 15px;
+  font-size: 12px;
+  padding: 3px 5px;
 }
 
 .about .about-me .social a {
@@ -202,11 +214,29 @@ img {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
+  line-height: 1.3;
 }
 
 .card-body .tags {
-  margin: 35px 0;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.program li {
+  width: 122px;
+  justify-content: space-between;
+  height: 120px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.portfolio button {
+  margin-top: 10px;
+}
+
+.card-body .tags li {
+  margin: 5px 0;
 }
 
 /* About */
@@ -276,15 +306,6 @@ img {
   gap: 10px;
   margin-top: 40px;
   overflow: hidden;
-}
-
-.program li {
-  width: 122px;
-  justify-content: space-between;
-  height: 120px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  text-align: left;
 }
 
 .program h3 {
@@ -463,7 +484,7 @@ img {
     background-repeat: no-repeat;
     border-top-left-radius: 80px;
     background-color: #6070ff;
-    height: 779px;
+    height: 846px;
   }
 
   .footer .footer-text {
