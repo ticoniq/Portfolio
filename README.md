@@ -71,9 +71,9 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<!-- > Describe how a new developer could make use of your project. -->
+> In order to start with this project do as follows:
 
-To get started with the portfolio, you can follow these simple steps:
+To get get a local copy up and running, you can follow these simple steps:
 
 
 ### Install
