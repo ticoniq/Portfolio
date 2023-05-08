@@ -6,13 +6,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-<!--   - [Prerequisites](#prerequisites) -->
   - [Install](#install)
   - [Usage](#usage)
-<!--   - [Run tests](#run-tests) -->
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -58,13 +56,18 @@
 
 ### Key Features <a name="key-features"></a>
 
-<!-- > Describe between 1-3 key features of the application. -->
-
 - **Contact form for easy communication**
 - **Information about my work experience and educational background**
 - **Detailed project descriptions with links to code repositories and live demos**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Live Demo -->
+
+### Deployment
+
+## 🚀 Live Demo <a name="live-demo"></a>
+<a href="https://ticoniq.github.io/Portfolio"> See Project 🚀</a>
 
 <!-- GETTING STARTED -->
 
@@ -81,8 +84,6 @@ Clone the repository to your local machine using the following command:
 ```sh
   git clone git@github.com/ticoniq/portfolio
 ```
-
-### Install
 Navigate to the project directory:
 
 ```sh
@@ -126,11 +127,6 @@ Example command:
   bin/rails test test/models/article_test.rb
 ```
 --->
-
-### Deployment
-
-## 🚀 Live Demo <a name="live-demo"></a>
-To visit the live version of this project <a href="https://ticoniq.github.io/Portfolio"> click here</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
