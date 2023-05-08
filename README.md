@@ -64,8 +64,6 @@
 
 <!-- Live Demo -->
 
-### Deployment
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 <a href="https://ticoniq.github.io/Portfolio"> See Project 🚀</a>
 
