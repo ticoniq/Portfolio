@@ -12,7 +12,7 @@
   - [Install](#install)
   - [Usage](#usage)
 <!--   - [Run tests](#run-tests) -->
-<!--   - [Deployment](#deployment) -->
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -127,17 +127,11 @@ Example command:
 ```
 --->
 
-<!-- ### Deployment
+### Deployment
 
-You can deploy this project using: -->
+## 🚀 Live Demo <a name="live-demo"></a>
+To visit the live version of this project <a href="https://ticoniq.github.io/Portfolio"> click here</a>
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
