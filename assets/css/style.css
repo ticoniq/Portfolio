@@ -58,6 +58,7 @@ img {
   color: var(--primary-color);
   font-weight: 700;
   font-size: 18px;
+  transition: all 0.5s;
 }
 
 .navbar ul {
@@ -81,6 +82,8 @@ img {
 
 .navbar a:hover {
   color: var(--primary-color);
+  transition: 1s ease-out;
+  font-size: 20px;
 }
 
 .navbar i {
