@@ -6,13 +6,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-<!--   - [Prerequisites](#prerequisites) -->
   - [Install](#install)
   - [Usage](#usage)
-<!--   - [Run tests](#run-tests) -->
-<!--   - [Deployment](#deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -58,21 +56,24 @@
 
 ### Key Features <a name="key-features"></a>
 
-<!-- > Describe between 1-3 key features of the application. -->
-
 - **Contact form for easy communication**
 - **Information about my work experience and educational background**
 - **Detailed project descriptions with links to code repositories and live demos**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Live Demo -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+<a href="https://ticoniq.github.io/Portfolio"> See Project 🚀</a>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<!-- > Describe how a new developer could make use of your project. -->
+> In order to start with this project do as follows:
 
-To get started with the portfolio, you can follow these simple steps:
+To get get a local copy up and running, you can follow these simple steps:
 
 
 ### Install
@@ -81,8 +82,6 @@ Clone the repository to your local machine using the following command:
 ```sh
   git clone git@github.com/ticoniq/portfolio
 ```
-
-### Install
 Navigate to the project directory:
 
 ```sh
@@ -127,17 +126,6 @@ Example command:
 ```
 --->
 
-<!-- ### Deployment
-
-You can deploy this project using: -->
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
