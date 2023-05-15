@@ -7,10 +7,13 @@ const blur_bg = document.querySelector("#blur-bg");
 open_menu.addEventListener("click", () => {
   mobile_nav.style.display = "flex";
   blur_bg.style.display = "block";
+  document.body.style.overflow = "hidden";
+  
 });
 
 // Close mobile nav
 close_menu.addEventListener("click", () => {
   mobile_nav.style.display = "none";
   blur_bg.style.display = "none";
+  document.body.style.overflow = "auto";
 });
