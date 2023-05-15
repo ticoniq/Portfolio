@@ -51,7 +51,7 @@
   font-size: 17px;
 }
 
-.btn-dissable:disabled {
+.btn-disable:disabled {
   border: 1px solid#5E6C84;
   background: transparent;
   color: #5e6c84;
