@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,800&display=swap");
 
 :root {
-  --primary-color: #6070ff;
+  --primary-color: rgb(96, 112, 255);
 }
 
 * {
@@ -65,6 +65,10 @@ img {
 }
 
 .navbar .mobile-nav {
+  display: none;
+}
+
+.blur-bg {
   display: none;
 }
 
@@ -418,7 +422,42 @@ img {
   }
 
   .navbar .mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    background-color: rgba(96, 112, 255, 0.85);
+    padding: 3em;
     display: none;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .blur-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+  }
+
+  #close-menu {
+    color: #fff;
+    margin-left: auto;
+  }
+
+  .mobile-nav li {
+    display: block;
+  }
+
+  .mobile-nav li a {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
   }
 
   .navbar i {
