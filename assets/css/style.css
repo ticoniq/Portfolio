@@ -460,6 +460,12 @@ img {
     font-weight: 600;
   }
 
+  .mobile-nav li a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+  }
+
   .navbar i {
     display: block;
   }
