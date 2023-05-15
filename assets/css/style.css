@@ -64,6 +64,10 @@ img {
   display: flex;
 }
 
+.navbar .mobile-nav {
+  display: none;
+}
+
 .card-body a {
   margin-right: 10px;
   font-style: normal;
@@ -409,7 +413,11 @@ img {
 
 /* Mobile view */
 @media (max-width: 768px) {
-  .navbar ul {
+  .navbar .desktop-nav {
+    display: none;
+  }
+
+  .navbar .mobile-nav {
     display: none;
   }
 

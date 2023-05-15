@@ -20,13 +20,19 @@
     <nav class="navbar">
       <div class="container flex">
         <a href="index.html" class="logo">My Logo</a>
-        <ul>
+        <ul class="desktop-nav">
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <i class="fa fa-bars"></i>
+        <i id="open-menu" class="fa fa-bars"></i>
       </div>
+      <ul id="mobile-nav" class="mobile-nav">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i id="close-menu" class="fas fa-times"></i>
+      </ul>
     </nav>
     <!-- banner -->
     <section class="banner">
@@ -239,6 +245,7 @@
       </div>
     </section>
   </footer>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
