@@ -1,3 +1,7 @@
+import projectsData from './projects-data.js';
+
+console.log(projectsData);
+
 const openMenu = document.querySelector('#open-menu');
 const closeMenu = document.querySelector('#close-menu');
 const mobileNav = document.querySelector('#mobile-nav');
