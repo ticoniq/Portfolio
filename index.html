@@ -1,244 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/utilities.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Portfolio | Okolie Tochi</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/css/utilities.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Portfolio | Okolie Tochi</title>
-</head>
-
-<body>
-  <!-- HEader -->
-  <header>
-    <!-- navbar -->
-    <nav class="navbar">
-      <div class="container flex">
-        <a href="index.html" class="logo">My Logo</a>
-        <ul>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+  <body>
+    <!-- HEader -->
+    <header>
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="container flex">
+          <a href="index.html" class="logo">My Logo</a>
+          <ul class="desktop-nav">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i id="open-menu" class="fa fa-bars"></i>
+        </div>
+        <div id="blur-bg" class="blur-bg"></div>
+        <ul id="mobile-nav" class="mobile-nav">
+          <i id="close-menu" class="fas fa-times"></i>
+          <li><a class="mobile-nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="mobile-nav-link" href="#about">About</a></li>
+          <li><a class="mobile-nav-link" href="#contact">Contact</a></li>
         </ul>
-        <i class="fa fa-bars"></i>
-      </div>
-    </nav>
-    <!-- banner -->
-    <section class="banner">
-      <div class="container">
-        <div class="banner-text">
-          <h1>I’m Tochi. <br> Glad to see you!</h1>
-          <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work
-            and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-          </p>
-          <a href="#" class="link">LET’S CONNECT</a>
-          <ul class="social">
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
-            <li><a href="#"><i class="fab fa-github"></i></a></li>
-            <li><a href="#"><i class="fab fa-angellist"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </header>
-  <!-- main section -->
-  <main class="main">
-    <!-- Portfolio -->
-    <section class="portfolio my-5 py-2" id="portfolio">
-      <div class="container">
-        <!-- card 1 -->
-        <div class="card grid">
-          <div class="img">
-            <img src="assets/images/portfolio-1.svg" alt="Portfolio">
-          </div>
-          <div class="card-body">
-            <h2>Tonia </h2>
-            <ul class="details">
-              <li><a href="#">Developer <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">Web <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">2022 </a></li>
+      </nav>
+      <!-- banner -->
+      <section class="banner">
+        <div class="container">
+          <div class="banner-text">
+            <h1>
+              I’m Tochi. <br />
+              Glad to see you!
+            </h1>
+            <p>
+              I’m a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don’t
+              hesitate to contact me.
+            </p>
+            <a href="#" class="link">LET’S CONNECT</a>
+            <ul class="social">
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-medium-m"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-angellist"></i></a>
+              </li>
             </ul>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="tags">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">ReactJs</a></li>
-            </ul>
-            <button class="btn btn-outline btn-hover mt-15 btn-pressed">See Project</button>
           </div>
         </div>
-
-        <!-- card 2 -->
-        <div class="card grid">
-          <div class="card-body">
-            <h2>Tonia </h2>
-            <ul class="details">
-              <li><a href="#">Developer <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">Web <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">2022 </a></li>
-            </ul>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="tags">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">Ruby on rails</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-            <button class="btn btn-outline btn-hover mt-15 btn-pressed">See Project</button>
-          </div>
-          <div class="img">
-            <img src="assets/images/portfolio-2.svg" alt="Portfolio">
-          </div>
-        </div>
-
-        <!-- card 3 -->
-        <div class="card grid">
-          <div class="img">
-            <img src="assets/images/portfolio-3.svg" alt="Portfolio">
-          </div>
-          <div class="card-body">
-            <h2>Tonia </h2>
-            <ul class="details">
-              <li><a href="#">Developer <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">Web <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">2022 </a></li>
-            </ul>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="tags">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-            <button class="btn btn-outline btn-hover mt-15 btn-pressed">See Project</button>
-          </div>
-        </div>
-
-        <!-- card 4 -->
-        <div class="card grid">
-          <div class="card-body">
-            <h2>Tonia </h2>
-            <ul class="details">
-              <li><a href="#">Developer <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">Web <i class="fa fa-circle"></i></a></li>
-              <li><a href="#">2022 </a></li>
-            </ul>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="tags">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-            <button class="btn btn-outline btn-hover mt-15 btn-pressed">See Project</button>
-          </div>
-          <div class="img">
-            <img src="assets/images/portfolio-4.svg" alt="Portfolio">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- about me -->
-    <section class="about" id="about">
-      <div class="container grid">
-
-        <!-- about -->
-        <div class="about-me">
-          <h2>About Myself</h2>
-          <p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of
-            my work and experience! If you like what you see and have a project you need coded, don’t hesitate to
-            contact me.</p>
-          <a href="#" class="link">LET’S CONNECT</a>
-          <ul class="social">
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
-            <li><a href="#"><i class="fab fa-github"></i></a></li>
-            <li><a href="#"><i class="fab fa-angellist"></i></a></li>
-          </ul>
-          <a class="btn btn-outline btn-hover" href="#">Get My Resume</a>
-        </div>
-
-        <!-- skills -->
-        <div class="about-skill">
-          <ul class="languages">
-            <li>
-              <span class="skill">
-                <h3 class="skill_title">Languages</h3>
-                <i class="fa fa-chevron-down"></i>
-              </span>
-              <ul class="program flex">
+      </section>
+    </header>
+    <!-- main section -->
+    <main class="main">
+      <!-- Portfolio -->
+      <section class="portfolio my-5 py-2" id="portfolio">
+        <div class="container">
+          <!-- card 1 -->
+          <div class="card grid">
+            <div class="img">
+              <img src="assets/images/portfolio-1.svg" alt="Portfolio" />
+            </div>
+            <div class="card-body">
+              <h2>Tonia</h2>
+              <ul class="details">
                 <li>
-                  <img src="assets/images/Ellipse-1.svg" alt="Javascript">
-                  <h3 class="skill_detail-title">JavaScript</h3>
+                  <a href="#">Developer <i class="fa fa-circle"></i></a>
                 </li>
                 <li>
-                  <img src="assets/images/Ellipse-2.svg" alt="HTML">
-                  <h3 class="skill_detail-title">HTML</h3>
+                  <a href="#">Web <i class="fa fa-circle"></i></a>
                 </li>
-                <li>
-                  <img src="assets/images/Ellipse-3.svg" alt="CSS">
-                  <h3 class="skill_detail-title">CSS</h3>
-                </li>
+                <li><a href="#">2022 </a></li>
               </ul>
-            </li>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="tags">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">ReactJs</a></li>
+              </ul>
+              <button class="btn btn-outline btn-hover mt-15 btn-pressed">
+                See Project
+              </button>
+            </div>
+          </div>
 
-            <li>
-              <span class="skill">
-                <h3 class="skill_title">Framework</h3>
-                <i class="fa fa-chevron-right"></i>
-              </span>
-            </li>
-            <li>
-              <span class="skill">
-                <h3 class="skill_title">Skills</h3>
-                <i class="fa fa-chevron-right"></i>
-              </span>
-            </li>
-          </ul>
+          <!-- card 2 -->
+          <div class="card grid">
+            <div class="card-body">
+              <h2>Tonia</h2>
+              <ul class="details">
+                <li>
+                  <a href="#">Developer <i class="fa fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#">Web <i class="fa fa-circle"></i></a>
+                </li>
+                <li><a href="#">2022 </a></li>
+              </ul>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="tags">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Ruby on rails</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+              <button class="btn btn-outline btn-hover mt-15 btn-pressed">
+                See Project
+              </button>
+            </div>
+            <div class="img">
+              <img src="assets/images/portfolio-2.svg" alt="Portfolio" />
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="card grid">
+            <div class="img">
+              <img src="assets/images/portfolio-3.svg" alt="Portfolio" />
+            </div>
+            <div class="card-body">
+              <h2>Tonia</h2>
+              <ul class="details">
+                <li>
+                  <a href="#">Developer <i class="fa fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#">Web <i class="fa fa-circle"></i></a>
+                </li>
+                <li><a href="#">2022 </a></li>
+              </ul>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="tags">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+              <button class="btn btn-outline btn-hover mt-15 btn-pressed">
+                See Project
+              </button>
+            </div>
+          </div>
+
+          <!-- card 4 -->
+          <div class="card grid">
+            <div class="card-body">
+              <h2>Tonia</h2>
+              <ul class="details">
+                <li>
+                  <a href="#">Developer <i class="fa fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#">Web <i class="fa fa-circle"></i></a>
+                </li>
+                <li><a href="#">2022 </a></li>
+              </ul>
+              <p>
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="tags">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+              <button class="btn btn-outline btn-hover mt-15 btn-pressed">
+                See Project
+              </button>
+            </div>
+            <div class="img">
+              <img src="assets/images/portfolio-4.svg" alt="Portfolio" />
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <!-- footer -->
-  <footer class="foot" id="contact">
-    <section class="footer">
-      <div class="container">
+      <!-- about me -->
+      <section class="about" id="about">
+        <div class="container grid">
+          <!-- about -->
+          <div class="about-me">
+            <h2>About Myself</h2>
+            <p>
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website. Look through some of my work and experience!
+              If you like what you see and have a project you need coded, don’t
+              hesitate to contact me.
+            </p>
+            <a href="#" class="link">LET’S CONNECT</a>
+            <ul class="social">
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-medium-m"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-angellist"></i></a>
+              </li>
+            </ul>
+            <a class="btn btn-outline btn-hover" href="#">Get My Resume</a>
+          </div>
 
-        <!-- footer text -->
-        <div class="footer-text">
-          <h2>Contact Me</h2>
-          <p>If you have an application you are interested in developing, a feature that you need built or a project
-            that needs coding. I’d love to help with it!</p>
+          <!-- skills -->
+          <div class="about-skill">
+            <ul class="languages">
+              <li>
+                <span class="skill">
+                  <h3 class="skill_title">Languages</h3>
+                  <i class="fa fa-chevron-down"></i>
+                </span>
+                <ul class="program flex">
+                  <li>
+                    <img src="assets/images/Ellipse-1.svg" alt="Javascript" />
+                    <h3 class="skill_detail-title">JavaScript</h3>
+                  </li>
+                  <li>
+                    <img src="assets/images/Ellipse-2.svg" alt="HTML" />
+                    <h3 class="skill_detail-title">HTML</h3>
+                  </li>
+                  <li>
+                    <img src="assets/images/Ellipse-3.svg" alt="CSS" />
+                    <h3 class="skill_detail-title">CSS</h3>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <span class="skill">
+                  <h3 class="skill_title">Framework</h3>
+                  <i class="fa fa-chevron-right"></i>
+                </span>
+              </li>
+              <li>
+                <span class="skill">
+                  <h3 class="skill_title">Skills</h3>
+                  <i class="fa fa-chevron-right"></i>
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
+      </section>
+    </main>
 
-        <!-- footer form -->
-        <div class="footer-form">
-          <form action="https://formspree.io/f/xbjewoav" method="post">
-            <div class="form-control">
-              <input type="text" name="name" placeholder="Full Name" maxlength="30" required>
-            </div>
-            <div class="form-control">
-              <input type="email" name="email" placeholder="Email" required>
-            </div>
-            <div class="form-control">
-              <textarea name="message" placeholder="Write your message here..." maxlength="500" required></textarea>
-            </div>
-            <div class="form-control">
-              <button type="submit" class="btn btn-default btn-hover-2 btn-pressed">Get in touch</button>
-            </div>
-          </form>
+    <!-- footer -->
+    <footer class="foot" id="contact">
+      <section class="footer">
+        <div class="container">
+          <!-- footer text -->
+          <div class="footer-text">
+            <h2>Contact Me</h2>
+            <p>
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it!
+            </p>
+          </div>
+
+          <!-- footer form -->
+          <div class="footer-form">
+            <form action="https://formspree.io/f/xbjewoav" method="post">
+              <div class="form-control">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Full Name"
+                  maxlength="30"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <input type="email" name="email" placeholder="Email" required />
+              </div>
+              <div class="form-control">
+                <textarea
+                  name="message"
+                  placeholder="Write your message here..."
+                  maxlength="500"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-control">
+                <button
+                  type="submit"
+                  class="btn btn-default btn-hover-2 btn-pressed"
+                >
+                  Get in touch
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
-    </section>
-  </footer>
-</body>
-
+      </section>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>

@@ -1,5 +1,5 @@
 .container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   overflow: auto;
   padding: 0 40px;
@@ -18,9 +18,9 @@
   padding: 10px 10px;
   cursor: pointer;
   background: var(--primary-color);
+  border-radius: 8px;
   color: #fff;
   border: none;
-  border-radius: 5px;
 }
 
 .btn:hover {
@@ -45,13 +45,13 @@
 
 .btn-outline {
   background-color: transparent;
-  border: 1px solid #396df2;
-  color: #396df2;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   font-weight: 500;
   font-size: 17px;
 }
 
-.btn-dissable:disabled {
+.btn-disable:disabled {
   border: 1px solid#5E6C84;
   background: transparent;
   color: #5e6c84;
@@ -59,7 +59,7 @@
 
 .btn-default {
   background-color: #fff;
-  color: #396df2;
+  color: var(--primary-color);
   font-weight: 500;
   font-size: 17px;
 }
