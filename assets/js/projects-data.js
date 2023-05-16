@@ -6,7 +6,7 @@ const projectsData = [
     platform: 'Web',
     year: '2022',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
     featuredImage: 'assets/images/portfolio-1.svg',
     technologies: ['HTML', 'CSS', 'ReactJs'],
     linkToLiveVersion: '#',

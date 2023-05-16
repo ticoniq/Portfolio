@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,800&display=swap');
 
 :root {
   --primary-color: rgb(96, 112, 255);
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #333;
   line-height: 1.6;
   background: #e5e5e5;
@@ -112,7 +112,7 @@ img {
 .banner {
   position: relative;
   top: 72px;
-  background-image: url("../images/web/header_bg.svg");
+  background-image: url('../images/web/header_bg.svg');
   background-position: center 30px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -201,7 +201,7 @@ img {
 
 /* modal */
 .modal {
-  /* display: none; */
+  display: none;
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -211,7 +211,7 @@ img {
   bottom: 0;
   overflow: auto;
   background-color: rgba(193, 199, 208, 0.85);
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
 .modal .container {
@@ -384,7 +384,7 @@ img {
 }
 
 .footer {
-  background-image: url("../images/web/contact-bg.svg");
+  background-image: url('../images/web/contact-bg.svg');
   background-position: center 100px;
   background-size: auto;
   background-repeat: no-repeat;
@@ -426,8 +426,8 @@ img {
   align-items: center;
 }
 
-.footer input[type="text"],
-.footer input[type="email"] {
+.footer input[type='text'],
+.footer input[type='email'] {
   border: 0;
   border: 1px solid #fff;
   width: 100%;
@@ -520,7 +520,7 @@ img {
   }
 
   .banner {
-    background-image: url("../images/mobile/header-mobile.svg");
+    background-image: url('../images/mobile/header-mobile.svg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 800px;
@@ -590,7 +590,7 @@ img {
   }
 
   .footer {
-    background-image: url("../images/mobile/contact-mobile.svg");
+    background-image: url('../images/mobile/contact-mobile.svg');
     background-position: right 50px;
     background-repeat: no-repeat;
     border-top-left-radius: 80px;
