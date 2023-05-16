@@ -199,18 +199,31 @@ img {
   font-size: 10px;
 }
 
-/* modal */
-.modal {
+/* overlay */
+.overlay {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   overflow: auto;
   background-color: rgba(193, 199, 208, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+/* modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+  inset: 100px;
+}
+
+.modal .card {
+  overflow: auto;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 

@@ -67,8 +67,8 @@ export const generateProjectPopUps = (projectDetails) => {
   } = projectDetails;
 
   return `
-    <div class="container">
-      <div class="card">
+    <div class="">
+      <div id="modal-card" class="card">
         <div class="card-body">
           <h2>${name}</h2>
           <ul class="details">
