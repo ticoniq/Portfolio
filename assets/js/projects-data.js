@@ -3,7 +3,7 @@ const projectsData = [
     id: '01',
     name: 'Tonia',
     role: 'Developer',
-    projectPlatform: 'Web',
+    platform: 'Web',
     year: '2022',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -16,7 +16,7 @@ const projectsData = [
     id: '02',
     name: 'Tonia',
     role: 'Developer',
-    projectPlatform: 'Web',
+    platform: 'Web',
     year: '2022',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -29,7 +29,7 @@ const projectsData = [
     id: '03',
     name: 'Tonia',
     role: 'Developer',
-    projectPlatform: 'Web',
+    platform: 'Web',
     year: '2022',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -42,7 +42,7 @@ const projectsData = [
     id: '04',
     name: 'Tonia',
     role: 'Developer',
-    projectPlatform: 'Web',
+    platform: 'Web',
     year: '2022',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',

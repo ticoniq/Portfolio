@@ -1,7 +1,8 @@
 const generateTechnologyTags = (technologies) => {
-  technologies
+  const html = technologies
     .map((technology) => `<li><a href="#">${technology}</a></li>`)
     .join('\n');
+  return html;
 };
 
 const generateProjectCard = (projectDetails) => {
