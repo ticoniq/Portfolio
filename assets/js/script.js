@@ -50,7 +50,7 @@ form.addEventListener('submit', (e) => {
 
   // Check if name is empty
   if (email !== email.toLowerCase()) {
-    validate.appendChild(document.createTextNode('please enter a correct email address format'));
+    validate.appendChild(document.createTextNode('The email address must be lowercase'));
   } else {
     form.submit();
   }
