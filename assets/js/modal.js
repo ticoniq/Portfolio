@@ -62,8 +62,8 @@ for (let i = 0; i < projectsData.length; i += 1) {
 document.querySelector('#project').innerHTML = output;
 
 // Close modal if backdrop is click
-window.onclick = (event) => {
-  if (event.target === modal) {
+window.onclick = (e) => {
+  if (e.target === modal) {
     modal.style.display = 'none';
     document.body.style.overflow = 'auto';
   }

@@ -3,6 +3,7 @@ const closeMenu = document.querySelector('#close-menu');
 const mobileNav = document.querySelector('#mobile-nav');
 const blurBg = document.querySelector('#blur-bg');
 const mobileNavLink = document.querySelectorAll('.mobile-nav-link');
+const form = document.querySelector('#form');
 
 // Open mobile nav
 openMenu.addEventListener('click', () => {
@@ -32,3 +33,25 @@ window.onresize = () => {
     handleCloseMobileNav();
   }
 };
+
+form.addEventListener('submit', (e) => {
+  // Prevent form submission
+  e.preventDefault();
+
+  // Validate form fields
+  const email = document.querySelector('#email').value;
+  const validate = document.createElement('span');
+  validate.className = 'validate';
+
+  const control = document.querySelector('#btn-control');
+  const btn = document.querySelector('#validate');
+
+  control.insertBefore(validate, btn);
+
+  // Check if name is empty
+  if (email !== email.toLowerCase()) {
+    validate.appendChild(document.createTextNode('please enter a correct email address format'));
+  } else {
+    form.submit();
+  }
+});
