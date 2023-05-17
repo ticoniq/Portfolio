@@ -1,14 +1,8 @@
-import projectsData from './projects-data.js';
-import { generateProjectCards } from './generate-html-utils.js';
-
 const openMenu = document.querySelector('#open-menu');
 const closeMenu = document.querySelector('#close-menu');
 const mobileNav = document.querySelector('#mobile-nav');
 const blurBg = document.querySelector('#blur-bg');
 const mobileNavLink = document.querySelectorAll('.mobile-nav-link');
-
-const projectCardsWrapper = document.querySelector('#project-cards');
-projectCardsWrapper.innerHTML = generateProjectCards(projectsData);
 
 // Open mobile nav
 openMenu.addEventListener('click', () => {

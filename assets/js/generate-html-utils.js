@@ -1,53 +1,6 @@
-const generateTechnologyTags = (technologies) => {
+export const generateTechnologyTags = (technologies) => {
   const html = technologies
     .map((technology) => `<li><a href="#">${technology}</a></li>`)
-    .join('\n');
-  return html;
-};
-
-const generateProjectCard = (projectDetails) => {
-  const {
-    id,
-    name,
-    role,
-    platform,
-    year,
-    description,
-    featuredImage,
-    technologies,
-  } = projectDetails;
-
-  return `<div class="card grid">
-  <div class="img">
-    <img src="${featuredImage}" alt="Portfolio" />
-  </div>
-  <div class="card-body">
-    <h2>${name}</h2>
-    <ul class="details">
-      <li>
-        <a href="#">${role}<i class="fa fa-circle"></i></a>
-      </li>
-      <li>
-        <a href="#">${platform} <i class="fa fa-circle"></i></a>
-      </li>
-      <li><a href="#">${year}</a></li>
-    </ul>
-    <p>
-      ${description}
-    </p>
-    <ul class="tags">
-      ${generateTechnologyTags(technologies)}
-    </ul>
-    <button id="open-project-popup-${id}" class="btn btn-outline btn-hover mt-15 btn-pressed">
-      See Project
-    </button>
-  </div>
-</div>`;
-};
-
-export const generateProjectCards = (projectsData) => {
-  const html = projectsData
-    .map((projectDetails) => generateProjectCard(projectDetails))
     .join('\n');
   return html;
 };
@@ -59,7 +12,7 @@ export const generateProjectPopUps = (projectDetails) => {
     role,
     platform,
     year,
-    description,
+    descriptionlong,
     featuredImage,
     technologies,
     linkToLiveVersion,
@@ -67,10 +20,13 @@ export const generateProjectPopUps = (projectDetails) => {
   } = projectDetails;
 
   return `
-    <div class="">
+    <div class="container">
       <div id="modal-card" class="card">
         <div class="card-body">
-          <h2>${name}</h2>
+          <div class="card-header"> 
+            <h2>${name}</h2>
+            <i id="close-modal-popup" class="fas fa-times"></i>
+          </div>
           <ul class="details">
             <li>
               <a href="#">${role}<i class="fa fa-circle"></i></a>
@@ -84,7 +40,7 @@ export const generateProjectPopUps = (projectDetails) => {
         </div>
         <div class="grid">
           <p>
-            ${description}
+            ${descriptionlong}
           </p>
           <div class="btnn">
             <ul class="tags">

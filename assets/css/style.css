@@ -119,11 +119,13 @@ img {
   border-bottom-left-radius: 160px;
   background-color: #fff;
   height: 846px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-text {
-  margin-bottom: 20px;
-  padding: 14rem;
+  max-width: 900px;
 }
 
 .banner h1 {
@@ -199,37 +201,33 @@ img {
   font-size: 10px;
 }
 
-/* overlay */
-.overlay {
+.modal {
   display: none;
   position: fixed;
   z-index: 1;
+  padding-top: 100px;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   overflow: auto;
   background-color: rgba(193, 199, 208, 0.85);
-  backdrop-filter: blur(10px);
-}
-
-/* modal */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 10;
-  height: 100%;
-  inset: 100px;
-}
-
-.modal .card {
-  overflow: auto;
-  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
 .modal .container {
   max-width: 1156px;
   padding: 0;
+}
+
+.modal .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal .card-header i{
+  font-size: 20px;
+  color: #67798e;
 }
 
 .modal .grid {
@@ -540,8 +538,8 @@ img {
   }
 
   .banner-text {
-    margin-top: 110px;
-    padding: 2.4rem 0;
+    padding: 0;
+    margin: 0;
   }
 
   .banner h1 {
