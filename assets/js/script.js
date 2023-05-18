@@ -4,6 +4,9 @@ const mobileNav = document.querySelector('#mobile-nav');
 const blurBg = document.querySelector('#blur-bg');
 const mobileNavLink = document.querySelectorAll('.mobile-nav-link');
 const form = document.querySelector('#form');
+const name = document.querySelector('#name');
+const email = document.querySelector('#email');
+const message = document.querySelector('#message');
 
 // Open mobile nav
 openMenu.addEventListener('click', () => {
@@ -34,6 +37,24 @@ window.onresize = () => {
   }
 };
 
+// Save form data to localstorage
+form.addEventListener('keyup', () => {
+  const formData = {
+    name: name.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+// Retrive form data from localstorage on page load
+window.onload = () => {
+  const formData = localStorage.getItem('formData');
+  const formDataObj = JSON.parse(formData);
+  name.value = formDataObj.name;
+  email.value = formDataObj.email;
+  message.value = formDataObj.message;
+};
+
 form.addEventListener('submit', (e) => {
   // Prevent form submission
   e.preventDefault();
@@ -41,7 +62,7 @@ form.addEventListener('submit', (e) => {
   // Validate form fields
   const email = document.querySelector('#email').value;
 
-  // Check if name is empty
+  // Check if email is empty
   if (email !== email.toLowerCase()) {
     const errorDiv = document.querySelector('#validate');
     errorDiv.innerText = 'The email address must be lowercase';
