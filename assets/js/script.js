@@ -40,17 +40,11 @@ form.addEventListener('submit', (e) => {
 
   // Validate form fields
   const email = document.querySelector('#email').value;
-  const validate = document.createElement('span');
-  validate.className = 'validate';
-
-  const control = document.querySelector('#btn-control');
-  const btn = document.querySelector('#validate');
-
-  control.insertBefore(validate, btn);
 
   // Check if name is empty
   if (email !== email.toLowerCase()) {
-    validate.appendChild(document.createTextNode('The email address must be lowercase'));
+    const errorDiv = document.querySelector('#validate');
+    errorDiv.innerText = 'The email address must be lowercase';
   } else {
     form.submit();
   }
