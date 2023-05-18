@@ -3,6 +3,7 @@ const closeMenu = document.querySelector('#close-menu');
 const mobileNav = document.querySelector('#mobile-nav');
 const blurBg = document.querySelector('#blur-bg');
 const mobileNavLink = document.querySelectorAll('.mobile-nav-link');
+const form = document.querySelector('#form');
 
 // Open mobile nav
 openMenu.addEventListener('click', () => {
@@ -32,3 +33,19 @@ window.onresize = () => {
     handleCloseMobileNav();
   }
 };
+
+form.addEventListener('submit', (e) => {
+  // Prevent form submission
+  e.preventDefault();
+
+  // Validate form fields
+  const email = document.querySelector('#email').value;
+
+  // Check if name is empty
+  if (email !== email.toLowerCase()) {
+    const errorDiv = document.querySelector('#validate');
+    errorDiv.innerText = 'The email address must be lowercase';
+  } else {
+    form.submit();
+  }
+});

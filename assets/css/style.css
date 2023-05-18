@@ -408,7 +408,7 @@ img {
   text-align: center;
   width: 569px;
   margin: auto;
-  margin-top: 142px;
+  margin-top: 120px;
 }
 
 .footer .footer-text h2 {
@@ -464,6 +464,16 @@ img {
 
 .footer input:focus {
   outline: none;
+}
+
+.footer #validate {
+  color: #ff4154;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  display: block;
+  padding: 10px 0;
 }
 
 .footer textarea:focus {
