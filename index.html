@@ -81,9 +81,7 @@
         <div id="project" class="container"></div>
       </section>
 
-      <div id="modal" class="modal">
-        
-      </div>
+      <div id="modal" class="modal"></div>
 
       <!-- about me -->
       <section class="about" id="about">
@@ -176,10 +174,15 @@
 
           <!-- footer form -->
           <div class="footer-form">
-            <form action="https://formspree.io/f/xbjewoav" method="post">
+            <form
+              id="form"
+              action="https://formspree.io/f/xbjewoav"
+              method="post"
+            >
               <div class="form-control">
                 <input
                   type="text"
+                  id="name"
                   name="name"
                   placeholder="Full Name"
                   maxlength="30"
@@ -187,10 +190,17 @@
                 />
               </div>
               <div class="form-control">
-                <input type="email" name="email" placeholder="Email" required />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
               </div>
               <div class="form-control">
                 <textarea
+                  id="message"
                   name="message"
                   placeholder="Write your message here..."
                   maxlength="500"
@@ -212,5 +222,6 @@
     </footer>
     <script src="assets/js/script.js" type="module"></script>
     <script src="assets/js/modal.js" type="module"></script>
+    <script src="assets/js/localstorage.js" type="module"></script>
   </body>
 </html>
