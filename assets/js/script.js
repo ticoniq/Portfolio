@@ -67,7 +67,6 @@ form.addEventListener('submit', (e) => {
     const errorDiv = document.querySelector('#validate');
     errorDiv.innerText = 'The email address must be lowercase';
   } else {
-    localStorage.removeItem('formData');
     form.submit();
   }
 });
