@@ -65,7 +65,7 @@
 <!-- Live Demo -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-<a href="https://ticoniq.github.io/Portfolio"> See Project 🚀</a>
+<a href="https://portfolio-iota-vert-90.vercel.app"> See Project 🚀</a>
 
 <!-- GETTING STARTED -->
 
