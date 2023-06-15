@@ -70,8 +70,8 @@ const projectsData = [
     descriptionlong:
       'To Do List is a simple HTML/CSS/JS app that allows users to create and manage their tasks in a digital format. It is a great way to stay organized and on track with your work or personal life. It allows you to Add, edit, and delete tasks and Mark tasks as complete',
     featuredImage: 'assets/images/todo.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
+    linkToLiveVersion: 'https://to-do-list-e19agzkqh-ticoniq.vercel.app',
+    linkToSource: 'https://github.com/ticoniq/To-do-list',
   }];
 export default projectsData;
